@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Philosopher', sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 53px 0 82px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #262626;
+    color: #ffffff;
+}
+
+/*logo*/
+.box-n-1 {
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+    gap: 10px;
+    align-items: center;
+}
+
+.box-n-1 span {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.box-n-1 img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+/*links*/
+
+.box-n {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list-title {
+    color: #F9A602;
+    font-size: 25px;
+
+    font-weight: 700;
+    line-height: 3;
+}
+
+.box-n li {
+    list-style: none;
+    line-height: 24.64px;
+}
+
+.box-n li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+@media (max-width:767px) {
+
+    footer {
+        flex-direction: column;
+        padding-left: 40px;
+    }
+
+    .box-n-1 span {
+        font-size: 35px;
+    }
+
+    .box-n-1 img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .list-title {
+        font-size: 35px;
+
+    }
+
+    .box-n li a {
+        font-size: 27px;
+    }
+
+
+
+}
